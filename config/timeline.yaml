@@ -441,7 +441,7 @@ custom:
     weekday_morning:
       name: "工作日早间"
       start: "08:00"
-      end: "9:59"                 # 跨度 2h，留足触发裕量
+      end: "09:59"                 # 跨度 2h，留足触发裕量
       analyze: true   
       ai_mode: "incremental"   
       push: true                   # 早上推送一次
