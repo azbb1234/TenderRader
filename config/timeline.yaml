@@ -448,7 +448,7 @@ custom:
       report_mode: "incremental"   # 只推新增内容
       # once 继承 default（push: true）→ 窗口内只推一次
 
-    deep_morning:
+    quiet_morning:
       name: "工作日早间静默"
       start: "10:00"
       end: "20:00"                 # 跨度 2h
@@ -477,7 +477,7 @@ custom:
   # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   day_plans:
     workday:                       # 工作日计划
-      periods: ["deep_quiet", "weekday_morning", "weekend_morning","evening_summary"]
+      periods: ["deep_quiet", "weekday_morning", "quiet_morning","evening_summary"]
     weekend:                       # 周末计划（用 weekend_morning 替换 weekday_morning）
       periods: ["deep_quiet", "weekend_morning", "evening_summary"]
 
@@ -493,7 +493,7 @@ custom:
     3: "workday"                   # 周三
     4: "workday"                   # 周四
     5: "workday"                   # 周五
-    6: "workday"                   # 周六 → 周末计划
+    6: "workday"                   # 周六
     7: "workday"                   # 周日
 
 
