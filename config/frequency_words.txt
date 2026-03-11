@@ -239,6 +239,10 @@
 [AI 相关]
 /(?<![a-zA-Z])ai(?![a-zA-Z])/
 人工智能
+Claude
+龙虾
+Openclaw
+大模型
 
 [芯片]
 芯片
